@@ -1,0 +1,164 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15 May, 2021, 7:00:06 AM
+    Author     : DELL
+*/
+
+
+h4{
+  font: italic small-caps bolder 28px arial, sans-serif;              
+ }
+ body{
+     max-width: 1000px;
+     margin: auto;
+     font-family: sans-serif; font-size: 16px;
+     color: black;
+     
+     
+     
+ } 
+ #left {
+     float: left;
+     vertical-align: text-bottom;
+     
+     
+ }
+  #right
+  {
+      float:right;
+      width: 50%;
+      padding-right: 5px;
+  }
+  #image{
+      float:right;
+      padding: 0px 20px 20px 20px;
+  }
+  #identity
+  {
+      overflow: auto;
+      padding-left: 500px;
+  }
+  .content{
+    max-height: 600px;
+    
+}
+.banner-image{
+    
+     padding-bottom:50px;  
+        
+     text-align: center;  
+     color: #ffffff; 
+     background: url("14a7f9c6-0f14-4de6-8ec7-ea7afa0c1901.jpg") no-repeat center ;  
+     background-size: cover; 
+}
+.inner-banner-image{
+    padding-top: 12%; 
+    padding-left: 25%;
+    
+    align-content: center;
+    margin-right:  25%;
+    width:80%; 
+     
+}.banner_content{
+      position:relative;   
+      padding-top: 6%;  
+      padding-bottom: 6%; 
+      overflow:hidden;   
+      margin-bottom: 12%;  
+      background-color: #ffffff; 
+      max-width: 600px;
+      color: black;
+      opacity: 0.3;
+      
+}
+text{
+    font-size: 20px;
+}
+header{
+    padding : 5px 0px;
+    color: white;
+    
+}
+nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+    
+}
+li{
+    display: block;
+    
+    padding: 14px 16px;
+    
+    float: right;
+}
+a{
+    text-decoration: none;
+    color: #666;
+}
+@media(min-width:320px)
+{
+    .container{
+        width:320px;
+    }
+}
+@media(min-width:481px)
+{
+    .container{
+        width:481px;
+    }
+}
+@media(min-width:641px)
+{
+    .container{
+        width:641px;
+    }
+}
+@media(min-width:961px)
+{
+    .container{
+        width:961px;
+    }
+}
+@media(min-width:1000px)
+{
+    .container{
+        width:1000px;
+    }
+}
+
+
+
+a:hover{
+    color:blue;
+}
+a:active{
+    color:yellow;
+}
+footer{
+      background-color: #8c8c8c;  
+      color:#9d9d9d;
+      padding: 10px 0;
+      bottom: 0;
+      width: 100%;
+}
+.header{
+     background-color:white;
+     color:white;   
+     border-color: white;  
+     min-height: 50px; 
+     border: 1px solid transparent;
+}
+header{
+    background-color: #8c8c8c; 
+}
+.container{
+    width:90%;  
+    margin:auto; 
+    overflow:hidden; 
+}
